@@ -1,0 +1,16 @@
+{
+  "name": "Azure_MQTT_RPi_code",
+  "version": "1.0.0",
+  "main": "send_readings.js",
+  "license": "ISC",
+  "author": "iamgroot42 (Anshuman Suri)",
+  "description": "MMQT for Azure",
+  "scripts": {
+    "start": "node send_readings.js"
+  },
+  "dependencies": {
+    "azure-iot-device-mqtt": "latest",
+    "azure-iot-device": "latest",
+    "azure-event-hubs": "latest"
+  }
+}
